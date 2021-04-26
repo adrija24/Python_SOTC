@@ -1,4 +1,4 @@
-# Day - 2 === Currency Converter from INR to other
+# Day - 2 === Currency Converter from USD to other
 
 INR = float(0.013)  # United States Dollar
 EUR = float(1.21)  # Euro
