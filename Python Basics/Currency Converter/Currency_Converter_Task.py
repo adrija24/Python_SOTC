@@ -14,15 +14,15 @@ convert = input(
     f"Do you want to convert from USD to {currency.upper()} or {currency.upper()} to USD (Press 1 & 2 for respective options): ")
 
 if convert == "1": # INR to other
-    if currency == "INR" or currency == "inr":
+    if currency == ["INR", "inr"]:
         result = amount / INR
-    elif currency == "EUR" or currency == "eur":
+    elif currency == ["EUR", "eur"]:
         result = amount / EUR
-    elif currency == "JPY" or currency == "jpy":
+    elif currency == ["JPY", "jpy"]:
         result = amount / JPY
-    elif currency == "GBP" or currency == "gbp":
+    elif currency == ["GBP", "gbp"]:
         result = amount / GBP
-    elif currency == "CAD" or currency == "cad":
+    elif currency == ["CAD", "cad"]:
         result = amount / CAD
 
     if result is None:
@@ -31,15 +31,15 @@ if convert == "1": # INR to other
         print(f"{amount} USD = {result} {currency.upper()}")
 
 elif convert=="2": # INR from other
-    if currency == "INR" or currency == "inr":
+    if currency == ["INR", "inr"]:
         result = amount * INR
-    elif currency == "EUR" or currency == "eur":
+    elif currency == ["EUR", "eur"]:
         result = amount * EUR
-    elif currency == "JPY" or currency == "jpy":
+    elif currency == ["JPY", "jpy"]:
         result = amount * JPY
-    elif currency == "GBP" or currency == "gbp":
+    elif currency == ["GBP", "gbp"]:
         result = amount * GBP
-    elif currency == "CAD" or currency == "cad":
+    elif currency == ["CAD", "cad"]:
         result = amount * CAD
 
     if result is None:
