@@ -2,10 +2,10 @@
 
 ## Logic
 
-- Add Data
-    - Get existing birthdays from the file
-    - Get data from the user
-    - Appending the data in a file
-    
-
-- Print Data
+- Get existing birthdays from the file
+- Add data
+  - Get data from the user
+  - Append the new data to the existing file (or Create a new one if doesn't exist)
+- Print data
+  - Sort the dictionary by using datetime objects
+  - Print the result
