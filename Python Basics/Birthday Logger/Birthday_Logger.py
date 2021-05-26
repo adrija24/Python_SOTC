@@ -14,9 +14,11 @@ if os.path.isfile(file_name) and os.access(file_name, os.R_OK):
         with open(file_name, "r") as file:
             data = json.load(file)
     else:
+        data={}
         with open(file_name, "w") as file:
             json.dump(empty_dict, file, indent=4)
 else:
+    data={}
     with open(file_name, "w") as file:
         json.dump(empty_dict, file, indent=4)
         
