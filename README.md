@@ -5,4 +5,4 @@
 ### Aim
 * Basic python
 * AI-ML
-* python as Web development backend
+* Python as Web development backend
