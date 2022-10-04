@@ -3,7 +3,7 @@
 
 
 
-### Aim
+### Aim :dart:
 * Basic python
 * AI-ML
 * Python as Web development backend
