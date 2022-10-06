@@ -24,9 +24,9 @@ while rounds != 0:
     # Rock: Paper loses, Scissors win
     if player == "rock":
         if computer == "paper":
-            print("You have lost! Paper wraps rock.")
+            print("You have lost!!! Paper wraps rock.")
         if computer == "scissors":
-            print("You have won! Rock smashes scissors.")
+            print("You have won!!! Rock smashes scissors.")
             win_counter += 1
 
     # Paper: Scissors lose, Rock wins
