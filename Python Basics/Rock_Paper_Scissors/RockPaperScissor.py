@@ -1,5 +1,5 @@
 import random
-wrong_stat="You have entered a wrong choice"
+wrong_stat="You have entered a wrong choice!"
 
 while True:
     #Getting choice of computer
@@ -24,22 +24,22 @@ while True:
     # Computer chooses Paper
     elif choice=="Paper":
         if n=="paper":
-            print(f"Computer's choice: {choice}\nYou & Computer both selected same!!\nRound Draw!!!")
+            print(f"Computer's choice: {choice}\nYou & Computer both selected same!!!\nRound Draw!!!")
         elif n=="scissor":
-            print(f"Computer's choice: {choice}\nScissor cuts Papaer!\nYou have won this round!!!")
+            print(f"Computer's choice: {choice}\nScissor cuts Papaer!!!\nYou have won this round!!!")
         elif n=="rock":
-            print(f"Computer's choice: {choice}\nPaper wraps Rock!\nYou have lost this round!!!")
+            print(f"Computer's choice: {choice}\nPaper wraps Rock!!!\nYou have lost this round!!!")
         else:
             print(wrong_stat)
 
     # Computer chooses Scissor
     else:
         if n=="scissor":
-            print(f"Computer's choice: {choice}\nYou & Computer both selected same!!\nRound Draw!!!")
+            print(f"Computer's choice: {choice}\nYou & Computer both selected same!!!\nRound Draw!!!")
         elif n=="rock":
-            print(f"Computer's choice: {choice}\nRock breaks Scissor!\nYou have won this round!!!")
+            print(f"Computer's choice: {choice}\nRock breaks Scissor!!!\nYou have won this round!!!")
         elif n=="paper":
-            print(f"Computer's choice: {choice}\nScissor cuts Papaer!\nYou have lost this round!!!")
+            print(f"Computer's choice: {choice}\nScissor cuts Papaer!!!\nYou have lost this round!!!")
         else:
             print(wrong_stat)
 
