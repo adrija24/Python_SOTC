@@ -13,11 +13,11 @@ while True:
     # Computer chooses Rock
     if choice=="Rock":
         if n=="rock":
-            print(f"Computer's choice: {choice}\nYou & Computer both selected same!\nRound Draw!")
+            print(f"Computer's choice: {choice}\nYou & Computer both selected same!!!\nRound Draw!!!")
         elif n=="paper":
-            print(f"Computer's choice: {choice}\nPaper wraps Rock!\nYou have won this round!")
+            print(f"Computer's choice: {choice}\nPaper wraps Rock!!!\nYou have won this round!!!")
         elif n=="scissor":
-            print(f"Computer's choice: {choice}\nRock breaks Scissor!\nYou have lost this round!")
+            print(f"Computer's choice: {choice}\nRock breaks Scissor!!!\nYou have lost this round!!!")
         else:
             print(wrong_stat)
 
